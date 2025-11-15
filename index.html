@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <form>
+        <h2 style="text-align: center;">Job application form</h2>
+        <fieldset>
+            <legend>personal details</legend>
+        <label for="firstname">enter your first name :
+            <input type="text" placeholder="eg: aman" id="firstname" autocomplete="off">
+        </label><br>
+        <label for="middlename">enter your middle name : 
+            <input type="text" placeholder="eg : kumar" id="middlename" autocomplete="off"> 
+        </label><br>
+        <label for="lastname">enter you last name :
+            <input type="text" placeholder="eg: sinha" id="lastname" autocomplete="off"> 
+        </label><br>
+        <label for="1">enter your email:
+            <input type="email" placeholder="eg: abc123@gmail.com" id="1" autocomplete="off">
+        </label><br>
+        <label for="2">enter you mobile number :
+            <input type="number" placeholder="eg: 1234567890" id="2" autocomplete="off">
+        </label><br>
+        <label for="101">enter your DOB
+            <input type="date" id="101" autocomplete="off">
+        </label><br>
+        <label for="3">enter your father name : 
+            <input type="text" placeholder="eg: ajay kumar sinha" id="3" autocomplete="off">
+        </label><br>
+        <label for="4">enter your mother name:
+            <input type="text" placeholder="eg: sunita sinha" id="4" autocomplete="off">
+        </label>
+        </fieldset>
+        <fieldset>
+            <legend>Educational qualifications</legend>
+        <label for="5"> enter your 10th standard school name:
+            <input type="text" placeholder="eg: Delhi public school" id="5" autocomplete="off">
+        </label><br>
+        <label for="6">enter your 12th standard school name :
+            <input type="text" placeholder="eg: Delhi public school" id="6" autocomplete="off">
+        </label><br>
+        <label for="7"> enter your 10th standard marks in percentage :
+            <input type="number" placeholder="eg: 89.6" id="7" autocomplete="off">
+        </label><br>
+        <label for="8"> enter your 12th standard marks in percentage :
+            <input type="number" placeholder="eg: 89.6" id="8" autocomplete="off">
+        </label><br>
+        </fieldset>
+        <label for="9">Attach your resume:
+            <input type="file" id="9" autocomplete="off">
+        </label><br>
+        select your city
+        <select name="city" id="10">
+            <option value="delhi">delhi</option>
+            <option value="mumbai">mumbai</option>
+            <option valu="pune">pune</option>
+            <option value="chennai">chennai</option>
+            <option value="rajasthan">rajasthan</option>
+            <option value="bihar">bihar</option>
+        </select><br>
+        select you department
+        <select name="department" id="11">
+            <option value="corpoarate">corporate</option>
+            <option value="marketing">marketing</option>
+            <option value="public relations">public relations(PR)</option>
+        </select><br>
+        please select all the checkbox :-<br>
+        <label for="verify1">
+            <input type="checkbox" name="verify" value="verify1" required>I have read all the instructions.
+        </label><br>
+        <label for="verify2">
+            <input type="checkbox" name="verify" value="verify2" required>If any details found wrong in the form then I will be responsible
+        </label><br>
+        <label for="feedback">
+            feedback<input type="textarea" name="feedback" placeholder=" please write your valuable feedback" id="a12">
+        </label><br>
+        <input type="submit">
+
+    </form>
+</body>
+</html>
